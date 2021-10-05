@@ -1,0 +1,140 @@
+body{
+background:url("images/pattern-background-desktop.svg");
+background-repeat: no-repeat;
+background-size: contain;
+background-color:#ceccff; 
+display:flex;
+
+
+justify-content:space-around;
+    
+}
+.container{
+    background-color:white;
+    width:450px;
+    height:auto;
+    border-radius:5%;
+    overflow: hidden;
+    margin-top:100px;
+
+}
+.change{
+    position:relative;
+     left:230px;
+     bottom:120px;
+     
+}
+.cancel{
+    
+    background-color:#fafafa;
+       
+       width:300px;
+       margin-top:10px;
+       margin-left:80px;
+       margin-bottom:20px;
+       
+       padding:8px 50px;
+       display:block;
+       text-align:center;
+       
+       border-radius:10px;
+       border-color:white;
+       font-family: "hervica";
+       color:#000000;
+       font-weight: bold;
+       cursor:pointer;
+       
+
+
+}
+.cancel:hover{
+    color:rgb(177, 177, 177);
+}
+
+
+
+.detail{
+    font-family:serif;
+    color:gray;
+    
+    width:60%;
+    text-align:center;
+    margin:auto 85px;
+}
+.image{
+    position:relative;
+    right:6px;
+    top:6px;
+}
+
+.left{
+    margin-left:20px;
+    margin-top:30px;
+
+}
+.money{
+    position:relative;
+    left:60px;
+    bottom:80px;
+}
+
+
+
+
+.name{
+    font-family: serif;
+    font-weight:normal;
+    font-size: 20px;
+    position:relative;
+    left:60px;
+    bottom:60px;
+}
+.plan-box{
+    background-color:whitesmoke;
+    width:300px;
+    height:65px;
+    margin-left:80px;
+    border-radius:15px;
+    
+    
+
+   
+    
+    
+
+   }
+   
+   .payment{
+       background-color:#611bf8;
+       
+       width:300px;
+       margin-top:20px;
+       margin-left:80px;
+       
+       padding:8px 50px;
+       display:block;
+       text-align:center;
+       
+       border-radius:10px;
+       font-family: "hervica";
+       color:white;
+       font-weight: bold;
+       cursor:pointer;
+       
+
+   }
+
+   .payment:hover{
+       background-color:#694ffa;
+   }
+
+    
+
+
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    text-align:center;
+    
+}
+
